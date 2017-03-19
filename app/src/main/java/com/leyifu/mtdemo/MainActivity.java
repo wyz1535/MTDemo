@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 PopupWindow popupWindow = new PopupWindow(inflate, LinearLayout.LayoutParams.MATCH_PARENT, 1000);
                 popupWindow.setFocusable(true);
                 popupWindow.setBackgroundDrawable(new ColorDrawable());
-                backgroundAlpha(0.3f);
+                backgroundAlpha(0.5f);
                 popupWindow.showAsDropDown(ll_line);
 
                 final ArrayAdapter<String> adapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, initData());
